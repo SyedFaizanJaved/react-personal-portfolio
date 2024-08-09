@@ -1,0 +1,19 @@
+[
+  {
+    "role": "Full-stack web developer",
+    "organisation": "Stackup Solutions",
+    "startDate": "Dec, 2023",
+    "endDate": "Present",
+    "experiences": ["Lead in the design, development, and implementation of the graphic layout.","Delegate tasks designing."],
+    "imageSrc": "history/stackup.png"
+  },
+  {
+    "role": "Front-end web developer",
+    "organisation": "Digitech Solutions",
+    "startDate": "Aug, 2023",
+    "endDate": "Nov, 2023",
+    "experiences": ["Developed numerous marketing programs", "Recommended and consulted with clients on the most appropriate interface design"],
+    "imageSrc": "history/digitech.png"
+
+  }
+]

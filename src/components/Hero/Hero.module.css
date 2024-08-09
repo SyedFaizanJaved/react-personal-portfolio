@@ -1,0 +1,198 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 49px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  z-index: 1;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 33px;
+  font-family: var(--font-roboto);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(255, 255, 255, 0) 150%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.description {
+  font-size: 30px;
+  font-family: var(--font-roboto);
+  margin-bottom: 52px;
+}
+
+.contactBtn {
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.heroImg {
+  width: 45%;
+  z-index: 1;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.topBlur,
+.bottomBlur {
+  position: absolute;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.topBlur {
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
+}
+
+.bottomBlur {
+  width: 70vw;
+  height: 50vw;
+  min-width: 250px;
+  top: 246px;
+  right: -25vw;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1024px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+
+  .description {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  .contactBtn {
+    font-size: 25px;
+    padding: 14px 22px;
+  }
+
+  .heroImg {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content {
+    align-items: center;
+  }
+
+  .heroImg {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .contactBtn {
+    font-size: 22px;
+    padding: 12px 20px;
+  }
+
+  .topBlur {
+    width: 60vw;
+    height: 60vw;
+    top: -80px;
+    left: -20vw;
+  }
+
+  .bottomBlur {
+    width: 80vw;
+    height: 60vw;
+    top: 200px;
+    right: -30vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .contactBtn {
+    font-size: 20px;
+    padding: 10px 18px;
+  }
+
+  .heroImg {
+    width: 70%;
+  }
+
+  .topBlur,
+  .bottomBlur {
+    display: none; /* Hide blurs on very small screens to reduce clutter */
+  }
+}

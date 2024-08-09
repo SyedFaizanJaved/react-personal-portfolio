@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Gym website",
+    "imageSrc": "projects/gym.png",
+    "description": "This is a project made for the UK client.",
+    "skills": [
+      "React",
+      "Express",
+      "Node"
+    ],
+    "demo": "https://gym-website-seven-kappa.vercel.app/",
+    "source": "https://github.com/SyedFaizanJaved/gym-website.git"
+  },
+  {
+    "title": "Digital Marketing",
+    "imageSrc": "projects/marketing.png",
+    "description": "This is a project made for the client.",
+    "skills": [
+      "HTML5",
+      "CSS",
+      "Javascript"
+    ],
+    "demo": "https://digital-market-website-8ehl.vercel.app/",
+    "source": "https://github.com/SyedFaizanJaved/Digital-market-website.git"
+  },
+  {
+    "title": "Crios website",
+    "imageSrc": "projects/Crios.png",
+    "description": "This is a project made to learn the latest concepts by building an app.",
+    "skills": [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "Bootstrap"
+    ],
+    "demo": "https://crios-amazing-website.vercel.app/#",
+    "source": "https://github.com/SyedFaizanJaved/Crios-amazing-website.git"
+  },
+  {
+    "title": "Vibo mobile",
+    "imageSrc": "projects/vibo.png",
+    "description": "This is a project made for the client.",
+    "skills": [
+      "HTML5",
+      "CSS",
+      "Javascript"
+    ],
+    "demo": "https://vibo-mobile.vercel.app/#",
+    "source": "https://github.com/SyedFaizanJaved/vibo-mobile.git"
+  },
+  {
+    "title": "Fitness website",
+    "imageSrc": "projects/fitness.png",
+    "description": "This is a project made for the UK client.",
+    "skills": [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "Bootstrap"
+    ],
+    "demo": "https://fitness-snowy-zeta.vercel.app/#",
+    "source": "https://github.com/SyedFaizanJaved/fitness.git"
+  },
+  {
+    "title": "Food website",
+    "imageSrc": "projects/food.png",
+    "description": "This is a project made for the Italian client.",
+    "skills": [
+      "React",
+      "Express",
+      "Node"
+    ],
+    "demo": "https://food-landing-three.vercel.app/#",
+    "source": "https://github.com/SyedFaizanJaved/Food-landing.git"
+  },
+  {
+    "title": "Book website",
+    "imageSrc": "projects/bookshop.png",
+    "description": "This is a project made for pakistani client",
+    "skills": [
+      "React",
+      "Express",
+      "Node"
+    ],
+    "demo": "https://vibo-mobile-k939.vercel.app/",
+    "source": "https://github.com/SyedFaizanJaved/book-website.git"
+  },
+  {
+    "title": "Music web app",
+    "imageSrc": "projects/music.png",
+    "description": "This is a project made for Final year student",
+    "skills": [
+      "React",
+      "Tailwind",
+      "Node"
+    ],
+    "demo": "https://music-app-bay-zeta.vercel.app/",
+    "source": "https://github.com/SyedFaizanJaved/Music-app.git"
+  }
+]
