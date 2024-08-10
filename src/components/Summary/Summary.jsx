@@ -10,7 +10,7 @@ export const Summary = () => {
 
       <div className={styles.experience}>
         <div className={styles.experienceItem}>
-          <img src="../../assets/history/summary.png" alt="Summary logo" />
+          <img src={getImageUrl("summary/summary.png")} alt="Summary logo" />
           <div className={styles.experienceText}>
             <ul>
               <li>
