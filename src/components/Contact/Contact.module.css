@@ -36,6 +36,14 @@
   display: flex;
   align-items: center;
   gap: 25px;
+  max-width: 100%; /* Ensure link container doesn't overflow */
+  word-wrap: break-word; /* Wrap long text to prevent overflow */
+}
+
+.link img {
+  width: 40px; /* Ensuring icons are properly scaled */
+  height: auto;
+  flex-shrink: 0; /* Prevent icons from shrinking */
 }
 
 .link a {
@@ -44,6 +52,7 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  word-break: break-all; /* Prevent long text from overflowing */
 }
 
 /* Responsive Adjustments */
@@ -89,8 +98,17 @@
     align-items: center;
   }
 
+  .link {
+    gap: 20px; /* Adjusting gap for better spacing on smaller screens */
+  }
+
+  .link img {
+    width: 35px; /* Scaling down icons for smaller screens */
+  }
+
   .link a {
     font-size: 26px;
+    text-align: center; /* Center-align text for better readability */
   }
 }
 
@@ -98,6 +116,7 @@
   .container {
     padding: 30px 5%;
     gap: 20px;
+    margin-top: 50px; /* Reducing margin for smaller screens */
   }
 
   .text h2 {
@@ -109,10 +128,17 @@
   }
 
   .link {
-    gap: 15px;
+    gap: 15px; /* Further reducing gap for small devices */
+    max-width: 100%; /* Ensure link container doesn't overflow */
+  }
+
+  .link img {
+    width: 30px; /* Further scaling down icons for mobile */
   }
 
   .link a {
     font-size: 22px;
+    text-align: center; /* Center-align text for better readability */
+    word-break: break-word; /* Prevent long text from overflowing */
   }
 }
